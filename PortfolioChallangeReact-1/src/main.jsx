@@ -24,6 +24,6 @@ function App() {
       <Resume />
     </div>
   );
-}
+};
 
 export default App;
