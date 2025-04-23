@@ -4,16 +4,16 @@ import Project from '../components/Project';
 const Portfolio = () => {
     const projects = [
         {
-            title: 'Project 1',
-            image: 'https://via.placeholder.com/300',
-            deployedLink: 'https://example.com/project1',
-            repoLink: 'https://github.com/yourusername/project1',
+            title: 'PeakeFit',
+            image: 'src/assets/Screenshot 2024-12-15 154124.png',
+            deployedLink: 'https://nita9801.github.io/PeakeFit/',
+            repoLink: 'https://github.com/nita9801/PeakeFit.git',
         },
         {
-            title: 'Project 2',
-            image: 'https://via.placeholder.com/300',
-            deployedLink: 'https://example.com/project2',
-            repoLink: 'https://github.com/yourusername/project2',
+            title: 'Fizz',
+            image: 'src/assets/screenshot.png',
+            deployedLink: 'https://fizz-pv3d.onrender.com',
+            repoLink: 'https://github.com/yourusername/projecthttps',
         },
     ];
 

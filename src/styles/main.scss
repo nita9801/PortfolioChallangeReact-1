@@ -1,1 +1,6 @@
-@use "../node_modules/bootstrap/scss/bootstrap";
+@import './styles.css';
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
