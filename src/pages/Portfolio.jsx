@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../components/Project';
+import AboutMe from './AboutMe';
 
 const Portfolio = () => {
     const projects = [

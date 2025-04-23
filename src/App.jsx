@@ -14,8 +14,8 @@ export default function App() {
               <h1>My Portfolio</h1>
               <nav>
                   <ul>
-                      <li><Link to="/about">About Me</Link></li>
-                      <li><Link to="/">Portfolio</Link></li>
+                      <li><Link to="/">About Me</Link></li>
+                      <li><Link to="/portfolio">Portfolio</Link></li>
                       <li><Link to="/resume">Resume</Link></li>
                       <li><Link to="/contact">Contact</Link></li> 
                   </ul>
@@ -23,8 +23,8 @@ export default function App() {
           </header>
           <main>
               <Routes>
-                  <Route path="/about" element={<AboutMe />} />
-                  <Route path="/" element={<Portfolio />} />
+                  <Route path="/" element={<AboutMe />} />
+                  <Route path="/portfolio" element={<Portfolio />} />
                   <Route path="/resume" element={<Resume />} />
                   <Route path="/contact" element={<Contact />} /> 
               </Routes>

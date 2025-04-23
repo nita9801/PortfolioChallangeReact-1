@@ -44,3 +44,9 @@ nav ul li a:hover {
     border-radius: 8px; /* Optional: Adds rounded corners */
     margin-bottom: 1rem;
 }
+.headshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 1rem;
+}
