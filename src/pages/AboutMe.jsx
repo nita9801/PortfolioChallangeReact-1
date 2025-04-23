@@ -4,7 +4,8 @@ const AboutMe = () => {
     return (
         <div className="container">
             <h2>About Me</h2>
-            <p>Hello! I'm a web developer with experience in building modern web applications.</p>
+            <img src={headshot} alt="My Headshot" className="headshot" />
+            <p> My name is Christine Lopez. I am the developer that you are looking for</p>
         </div>
     );
 };
