@@ -9,6 +9,7 @@ This is a personal portfolio website built using React and Vite. It showcases my
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Demo](#demo)
 - [Screenshots](#screenshots)
 - [Contact](#contact)
 
@@ -54,3 +55,38 @@ Make sure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/nita9801/portfolioReactChallenge-.git
+ 
+2. install dependencies:
+   ```bash
+   npm install
+   
+3. Navigate to the project directory: 
+   ```bash
+   cd portfolioReactChallenge
+4. Start the development server:
+   ```
+  npm run dev
+
+5. Open your browser and navigate to:
+   ```
+   http://localhost:300
+
+### Usage
+
+   * Navigate through the website using the navigation bar.
+   * View the "About Me" section to learn more about me.
+   * Explore the "Portfolio" section to see my projects.
+   * Use the "Contact" form to send me a message.
+### Demo
+   You can view a live demo of the portfolio here:
+   https://app.screencastify.com/v3/watch/zkQxyyOZd5ua5BXg6s5B
+
+### Contact
+Feel free to reach out to me:
+
+Email: 187074331+nita9801@users.noreply.github.com.
+GitHub: [nita9801](https://www.github.com/nita9801)
+LinkedIn:[Christine Lopez](https://www.linkedin.com/in/christine-lopez-a94386344)
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
