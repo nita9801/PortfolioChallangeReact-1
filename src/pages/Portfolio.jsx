@@ -14,7 +14,7 @@ const Portfolio = () => {
             title: 'Fizz',
             image: 'src/assets/screenshot.png',
             deployedLink: 'https://fizz-pv3d.onrender.com',
-            repoLink: 'https://github.com/yourusername/projecthttps',
+            repoLink: 'https://github.com/nita9801/Fizz.git',
         },
     ];
 
