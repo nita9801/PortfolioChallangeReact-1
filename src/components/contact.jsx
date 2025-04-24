@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; 
 
 const Contact = () => {
+    const navigate = useNavigate();
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
     const handleChange = (e) => {
@@ -35,6 +37,9 @@ const Contact = () => {
                 <br />
                 <button type="submit">Send</button>
             </form>
+            <button onClick={() => navigate('/')} className="btn btn-primary">
+                Return to Home
+            </button>
         </div>
     );
 };

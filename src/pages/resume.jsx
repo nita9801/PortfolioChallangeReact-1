@@ -1,6 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Resume = () => {
+    const navigate = useNavigate();
+
     return (
         <div className="container">
             <h2>Resume</h2>
@@ -13,6 +16,9 @@ const Resume = () => {
                 <li>React</li>
                 <li>Node.js</li>
             </ul>
+            <button onClick={() => navigate('/')} className="btn btn-primary">
+                Return to Home
+            </button>
         </div>
     );
 };

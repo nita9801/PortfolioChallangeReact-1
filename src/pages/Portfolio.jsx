@@ -1,8 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Project from '../components/Project';
-import AboutMe from './AboutMe';
 
 const Portfolio = () => {
+    const navigate = useNavigate();
+
     const projects = [
         {
             title: 'PeakeFit',
@@ -24,6 +26,9 @@ const Portfolio = () => {
             {projects.map((project, index) => (
                 <Project key={index} {...project} />
             ))}
+            <button onClick={() => navigate('/')} className="btn btn-primary">
+                Return to Home
+            </button>
         </div>
     );
 };

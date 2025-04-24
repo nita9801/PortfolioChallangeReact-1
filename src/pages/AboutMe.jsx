@@ -6,7 +6,8 @@ const AboutMe = () => {
         <div className="container">
             <h2>About Me</h2>
             <img src={headshot} alt="My Headshot" className="headshot" />
-            <p> My name is Christine Lopez. I am the developer that you are looking for</p>
+            <p> My name is Christine L. I am currently studying to become a software engineer. and I am excited to see you </p>
+                
         </div>
     );
 };
