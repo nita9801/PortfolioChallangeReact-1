@@ -68,8 +68,12 @@ Make sure you have the following installed:
   npm run dev
 
 5. Open your browser and navigate to:
-   ```
-   http://localhost:300
+   
+   http://localhost:3000
+
+6. Deployed site on netlify
+   
+   https://portfoliochallengereact-1.netlify.app/
 
 ### Usage
 
